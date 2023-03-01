@@ -1,0 +1,119 @@
+@media (max-width: 991.98px) {
+    .text-session{
+        padding: 153px 25px;
+    }
+    .text-session p,
+    .text-session.onde-estamos p {
+        width: 100%;
+    }
+
+@media (max-width: 767.98px) {
+    .contato {
+        background-image: none;
+        background-color: #DEAE71;
+
+    }
+    .contato .texto-contato {
+        position: relative;
+        left: 0%;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .contato .texto-contato h2 {
+        margin-bottom: 46px;
+    }
+
+}  
+    
+@media (max-width: 721.98px) {
+
+    .ladrilho .grande,
+    .ladrilho .medio {
+        width: 100%;
+    }
+    .ladrilho .pequeno-grao,
+    .ladrilho .pequeno {
+        width: 50%;
+    }
+
+    .rodape {
+        text-align: center;
+    }
+    .rodape .logo {
+        display: block;
+        margin-bottom: 15px;
+        
+    }
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+        margin-bottom: 19px;
+        
+        
+    }
+    .rodape ul li {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        
+    }
+
+    .rodape .redes {
+        float: none;
+        margin-bottom: 28px;
+        
+    }
+}           
+
+}
+
+@media (max-width: 425px) {
+    .cabeçalho .logo {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .cabeçalho nav {
+        position: static;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .cabeçalho nav ul li {
+        display: block;
+
+    }
+
+    .cabeçalho nav ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    .painel h2 {
+        font-size: 25px;
+    }
+
+    .text-session.onde-estamos h2 {
+        font-size: 30px;
+    }
+
+    .text-session.onde-estamos p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .ladrilho .pequeno-grao,
+    .ladrilho .pequeno {
+        width: 100%;
+    }
+
+    
+}     
+}
